@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		930598222CA0CB5E00303509 /* Inject in Frameworks */ = {isa = PBXBuildFile; productRef = 930598212CA0CB5E00303509 /* Inject */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		9305980A2CA0C64C00303509 /* FlightFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlightFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -23,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				930598222CA0CB5E00303509 /* Inject in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +70,7 @@
 			);
 			name = FlightFinder;
 			packageProductDependencies = (
+				930598212CA0CB5E00303509 /* Inject */,
 			);
 			productName = FlightFinder;
 			productReference = 9305980A2CA0C64C00303509 /* FlightFinder.app */;
@@ -94,6 +100,9 @@
 			);
 			mainGroup = 930598012CA0C64C00303509;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				930598202CA0CB5E00303509 /* XCRemoteSwiftPackageReference "Inject" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 9305980B2CA0C64C00303509 /* Products */;
 			projectDirPath = "";
@@ -324,6 +333,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		930598202CA0CB5E00303509 /* XCRemoteSwiftPackageReference "Inject" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/krzysztofzablocki/Inject";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		930598212CA0CB5E00303509 /* Inject */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 930598202CA0CB5E00303509 /* XCRemoteSwiftPackageReference "Inject" */;
+			productName = Inject;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 930598022CA0C64C00303509 /* Project object */;
 }
