@@ -3,24 +3,26 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 63;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A284F336555C16A6E14586B /* ContentView copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797BBD870EE07268AB3BE77F /* ContentView copy.swift */; };
 		930598222CA0CB5E00303509 /* Inject in Frameworks */ = {isa = PBXBuildFile; productRef = 930598212CA0CB5E00303509 /* Inject */; };
+		9305982D2CA0D10A00303509 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 930598272CA0D10A00303509 /* Preview Assets.xcassets */; };
+		9305982E2CA0D10A00303509 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 930598292CA0D10A00303509 /* Assets.xcassets */; };
+		9305982F2CA0D10A00303509 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9305982A2CA0D10A00303509 /* ContentView.swift */; };
+		930598302CA0D10A00303509 /* FlightFinderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9305982B2CA0D10A00303509 /* FlightFinderApp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		797BBD870EE07268AB3BE77F /* ContentView copy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ContentView copy.swift"; path = "ContentView copy.swift"; sourceTree = "<group>"; };
 		9305980A2CA0C64C00303509 /* FlightFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlightFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		930598272CA0D10A00303509 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		930598292CA0D10A00303509 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9305982A2CA0D10A00303509 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9305982B2CA0D10A00303509 /* FlightFinderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightFinderApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		9305980C2CA0C64C00303509 /* FlightFinder */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = FlightFinder;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		930598072CA0C64C00303509 /* Frameworks */ = {
@@ -37,7 +39,7 @@
 		930598012CA0C64C00303509 = {
 			isa = PBXGroup;
 			children = (
-				9305980C2CA0C64C00303509 /* FlightFinder */,
+				9305982C2CA0D10A00303509 /* FlightFinder */,
 				9305980B2CA0C64C00303509 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,6 +50,26 @@
 				9305980A2CA0C64C00303509 /* FlightFinder.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		930598282CA0D10A00303509 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				930598272CA0D10A00303509 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9305982C2CA0D10A00303509 /* FlightFinder */ = {
+			isa = PBXGroup;
+			children = (
+				930598282CA0D10A00303509 /* Preview Content */,
+				930598292CA0D10A00303509 /* Assets.xcassets */,
+				9305982A2CA0D10A00303509 /* ContentView.swift */,
+				9305982B2CA0D10A00303509 /* FlightFinderApp.swift */,
+				797BBD870EE07268AB3BE77F /* ContentView copy.swift */,
+			);
+			path = FlightFinder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -64,9 +86,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				9305980C2CA0C64C00303509 /* FlightFinder */,
 			);
 			name = FlightFinder;
 			packageProductDependencies = (
@@ -92,6 +111,7 @@
 				};
 			};
 			buildConfigurationList = 930598052CA0C64C00303509 /* Build configuration list for PBXProject "FlightFinder" */;
+			compatibilityVersion = "Xcode 15.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -103,7 +123,6 @@
 			packageReferences = (
 				930598202CA0CB5E00303509 /* XCRemoteSwiftPackageReference "Inject" */,
 			);
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 9305980B2CA0C64C00303509 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -118,6 +137,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9305982D2CA0D10A00303509 /* Preview Assets.xcassets in Resources */,
+				9305982E2CA0D10A00303509 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,6 +149,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9305982F2CA0D10A00303509 /* ContentView.swift in Sources */,
+				930598302CA0D10A00303509 /* FlightFinderApp.swift in Sources */,
+				3A284F336555C16A6E14586B /* ContentView copy.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
